@@ -30,6 +30,11 @@ body {
   --border: #ececec;
 }
 
+.container {
+  width: 1600px;
+  padding: 94px 215px;
+}
+
 /* header */
 
 .header {
@@ -46,15 +51,15 @@ body {
   justify-content: center;
   vertical-align: middle;
   margin-bottom: 1px;
-  min-height: 80px;
   outline: 1px var(--border);
+  min-height: 80px;
 }
 
 .header-contacts {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding: 32px 0px 32px 0px;
   margin: 0px;
   width: 310px;
 }
@@ -69,7 +74,9 @@ body {
   line-height: 31px;
   display: inline-block;
   margin-top: 24px;
+  margin-bottom: 25px;
 }
+
 .logo:hover,
 .logo:focus,
 .footer-logo:hover,
@@ -89,8 +96,8 @@ span {
   display: flex;
   align-items: center;
   padding: 0px;
-  margin-left: 93px;
-  margin-right: 311px;
+  padding: 32px 0px 32px 93px;
+  margin: 0;
   justify-content: center;
 }
 
@@ -98,8 +105,12 @@ span {
   color: var(--main-black);
   text-decoration: none;
   font-size: 14px;
-  margin-left: 50px;
   display: block;
+  padding-right: 50px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .nav-link:hover,
@@ -111,6 +122,10 @@ span {
   color: var(--graphite);
   text-decoration: none;
   font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .contacts-link:hover,
@@ -170,13 +185,6 @@ span {
   margin-top: 0px;
 }
 
-/* container */
-.container {
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h2 {
   font-size: 36px;
   margin: auto;
@@ -206,8 +214,8 @@ p {
   justify-content: space-between;
   padding-left: 0;
   padding-right: 0;
-  margin-top: 94px;
-  margin-bottom: 0px;
+  /* margin-top: 94px; */
+  margin: 0px;
 }
 
 .descript {
@@ -229,9 +237,7 @@ p {
 
 .projects {
   margin: 0;
-  padding-bottom: 94px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0px;
   text-align: center;
   display: flex;
 }
@@ -258,6 +264,7 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--general-white);
 }
 
 /* footer */
@@ -302,9 +309,7 @@ footer {
 }
 
 .footer {
-  padding-top: 60px;
-  padding-left: 216px;
-  padding-bottom: 60px;
+  padding: 60px 215px;
 }
 
 .footer p {
