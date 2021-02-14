@@ -31,8 +31,9 @@ body {
 }
 
 .container {
-  width: 1600px;
-  padding: 94px 215px;
+  width: 1200px;
+  padding: 94px 15px;
+  margin: 0px auto;
 }
 
 /* header */
@@ -179,7 +180,11 @@ span {
 .spec {
   color: var(--graphite);
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
   display: block;
   margin-bottom: 30px;
   margin-top: 0px;
@@ -191,6 +196,9 @@ h2 {
   margin-bottom: 50px;
   margin-top: 94px;
   text-align: center;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 
 h3 {
@@ -199,6 +207,11 @@ h3 {
   padding-left: 0;
   margin-bottom: 10px;
   margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 p {
@@ -216,6 +229,15 @@ p {
   padding-right: 0;
   /* margin-top: 94px; */
   margin: 0px;
+}
+.adv {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .descript {
@@ -301,6 +323,12 @@ footer {
 .footer-contacts-link {
   color: var(--light-white);
   text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .footer-contacts-link:focus,
@@ -315,6 +343,12 @@ footer {
 .footer p {
   margin: 0;
   padding-bottom: 9px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .address {

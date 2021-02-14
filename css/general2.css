@@ -129,9 +129,11 @@ span {
 
 /* container */
 .container {
-  width: 1170px;
-  margin: 94px 215px;
+  width: 1200px;
+  padding: 94px 15px;
+  margin: 0px auto;
 }
+
 .btn {
   margin-left: 280px;
   margin-right: 280px;
@@ -178,6 +180,11 @@ button {
 .cardset-item {
   border: var(--border) 1px solid;
   margin-bottom: 30px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
 
 h2 {
@@ -239,6 +246,12 @@ footer {
 .footer-contacts-link {
   color: var(--light-white);
   text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .footer-contacts-link:focus,
@@ -253,6 +266,12 @@ footer {
 .footer p {
   margin: 0;
   padding-bottom: 9px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .address {
